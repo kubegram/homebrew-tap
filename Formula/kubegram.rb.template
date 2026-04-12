@@ -1,0 +1,18 @@
+class Kubegram < Formula
+  desc "Telegram Bot Framework for Kubernetes"
+  homepage "https://kubegram.com"
+  url "https://github.com/kubegram/kubegram/releases/download/#{version}/kubegram_#{version}_darwin_arm64.tar.gz"
+  version "#{version}"
+  license "Apache-2.0"
+  SHA256 "#{sha256}"
+
+  depends_on "go" => :build
+
+  def install
+    bin.install "kubegram"
+  end
+
+  test do
+    system "#{bin}/kubegram --version"
+  end
+end
