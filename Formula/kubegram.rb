@@ -7,22 +7,22 @@ class Kubegram < Formula
   on_macos do
     on_arm do
       url "https://github.com/kubegram/kubegram/releases/download/kubegram-cli%2Fv0.1.0/kubegram_0.1.0_darwin_arm64.tar.gz"
-      sha256 "5c97439c9b9a0c169c6e4e21766a4fc0452ab30fa3aa5f47175741f65f747791"
+      sha256 "fe9cde8568cd1ee9d4def2fa623a4185c51321222fff7f9e66287bbc97b216ba"
     end
     on_intel do
       url "https://github.com/kubegram/kubegram/releases/download/kubegram-cli%2Fv0.1.0/kubegram_0.1.0_darwin_amd64.tar.gz"
-      sha256 "6536dc08b94f23cc9fd729dacc7325266c5128c887d38bb1d56077f2729333ea"
+      sha256 "40cf7ed6b8f79ffcd94a6e70271fcefe6cda43c898c4795bb7907eb1bcb367f8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kubegram/kubegram/releases/download/kubegram-cli%2Fv0.1.0/kubegram_0.1.0_linux_arm64.tar.gz"
-      sha256 "32c3eaf9f9a13bc85144c25dac3033f950fb892f5eb583f41335b6de052dac8e"
+      sha256 "4f398d6262f3735a8ed7423c8c14a0342a773dd2112e66db9f81d625d33c5650"
     end
     on_intel do
       url "https://github.com/kubegram/kubegram/releases/download/kubegram-cli%2Fv0.1.0/kubegram_0.1.0_linux_amd64.tar.gz"
-      sha256 "982ae6cdc002ded4e6a476a2d624144d2635917f01bd8d89bd3e2a0969298808"
+      sha256 "7350d487d48bb74ffae3d66b118908048c18740f99708cba47e4d53d4856affc"
     end
   end
 
